@@ -1,0 +1,141 @@
+{
+    "Characters": "/api/characters",
+    "schema": {
+        "name": "string",
+        "work": "string"
+    },
+    "endpoints": [
+        {
+            "Action": "GET",
+            "URL": "/api/characters",
+            "response": [
+                {
+                    "_id": "622a15e53f3dfc5a31605ca0",
+                    "name": "Hank",
+                    "work": "Ranger",
+                    "createdAt": "2022-03-10T15:14:45.544Z",
+                    "updatedAt": "2022-03-10T15:14:45.544Z",
+                    "__v": 0
+                },
+                {
+                    "_id": "622a1e643f3dfc5a31605cda",
+                    "name": "Sheila",
+                    "work": "Thief",
+                    "createdAt": "2022-03-10T15:51:00.082Z",
+                    "updatedAt": "2022-03-10T15:51:00.082Z",
+                    "__v": 0
+                },
+                {
+                    "_id": "622a1f7b3f3dfc5a31605cdc",
+                    "name": "Diana",
+                    "work": "Acrobat",
+                    "createdAt": "2022-03-10T15:55:39.187Z",
+                    "updatedAt": "2022-03-10T15:55:39.187Z",
+                    "__v": 0
+                },
+                {
+                    "_id": "622a1fb83f3dfc5a31605cde",
+                    "name": "Bobby",
+                    "work": "Barbarian",
+                    "createdAt": "2022-03-10T15:56:40.804Z",
+                    "updatedAt": "2022-03-10T15:56:40.804Z",
+                    "__v": 0
+                },
+                {
+                    "_id": "622a1fdc3f3dfc5a31605ce0",
+                    "name": "Eric",
+                    "work": "Knight",
+                    "createdAt": "2022-03-10T15:57:16.754Z",
+                    "updatedAt": "2022-03-10T15:57:16.754Z",
+                    "__v": 0
+                },
+                {
+                    "_id": "622a202a3f3dfc5a31605ce2",
+                    "name": "Presto",
+                    "work": "Magician",
+                    "createdAt": "2022-03-10T15:58:34.816Z",
+                    "updatedAt": "2022-03-10T15:58:34.816Z",
+                    "__v": 0
+                },
+                {
+                    "_id": "622a20ac3f3dfc5a31605ce4",
+                    "name": "Uni",
+                    "work": "Bobby's Unicorn",
+                    "createdAt": "2022-03-10T16:00:44.496Z",
+                    "updatedAt": "2022-03-10T16:00:44.496Z",
+                    "__v": 0
+                },
+                {
+                    "_id": "622a216a3f3dfc5a31605ce6",
+                    "name": "Dungeon Master",
+                    "work": "Dungeon Master",
+                    "createdAt": "2022-03-10T16:03:54.631Z",
+                    "updatedAt": "2022-03-10T16:03:54.631Z",
+                    "__v": 0
+                },
+                {
+                    "_id": "622a21cf3f3dfc5a31605ce8",
+                    "name": "Venger",
+                    "work": "Villain",
+                    "createdAt": "2022-03-10T16:05:35.257Z",
+                    "updatedAt": "2022-03-10T16:14:18.888Z",
+                    "__v": 0
+                },
+                {
+                    "_id": "622a22443f3dfc5a31605cea",
+                    "name": "Tiamat",
+                    "work": "Dragon's Goddess",
+                    "createdAt": "2022-03-10T16:07:32.434Z",
+                    "updatedAt": "2022-03-10T16:07:32.434Z",
+                    "__v": 0
+                },
+                {
+                    "_id": "622a24e03f3dfc5a31605cf4",
+                    "name": "The Shadow Demon",
+                    "work": "Villain's spy",
+                    "createdAt": "2022-03-10T16:18:40.573Z",
+                    "updatedAt": "2022-03-10T16:18:40.573Z",
+                    "__v": 0
+                }
+            ]
+        },
+        
+        {
+            "Action": "POST",
+            "URL": "/api/characters",
+            "request-body": {
+                "_id": "622a24e03f3dfc5a31605cf4",
+                "name": "The Shadow Demon",
+                "work": "Villain's spy",
+                "createdAt": "2022-03-10T16:18:40.573Z",
+                "updatedAt": "2022-03-10T16:18:40.573Z",
+                "__v": 0
+            }
+        },
+        {
+            "Action": "PATCH",
+            "URL": "/api/characters",
+            "request-body": {
+                "_id": "622a21cf3f3dfc5a31605ce8",
+                "name": "Venger",
+                "work": "Villano",
+                "createdAt": "2022-03-10T16:05:35.257Z",
+                "updatedAt": "2022-03-10T16:12:56.926Z",
+                "__v": 0
+            }
+        },
+        {"Action": "GET",
+            "URL": "/api/characters/id",
+            "response": [
+                {
+                    "_id": "622a15e53f3dfc5a31605ca0",
+                    "name": "Hank",
+                    "work": "Ranger",
+                    "createdAt": "2022-03-10T15:14:45.544Z",
+                    "updatedAt": "2022-03-10T15:14:45.544Z",
+                    "__v": 0
+                }
+            ]
+        }
+    ]
+}
